@@ -1,3 +1,10 @@
+## Prerequisites
+First, ensure the vulnerable Python server is running with the following command:
+
+```Bash
+
+uvicorn vulnerable:app --reload
+```
 ## Exploitation Steps
 The goal is to use an authenticated user, Bob, to delete a post that belongs to another user, Alice.
 
