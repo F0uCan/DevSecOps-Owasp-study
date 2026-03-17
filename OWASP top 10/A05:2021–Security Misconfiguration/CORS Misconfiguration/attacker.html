@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evil Attacker Site</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #1a1a2e;
+            color: #e0e0e0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #e74c3c;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        code {
+            background: #0d1117;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #2ecc71;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Evil Attacker Site</h1>
+    <p>This page is running on <code>http://localhost:9000</code>.</p>
+    <p>The vulnerable API is running on <code>http://localhost:8000</code>.</p>
+    <p>These are <strong>different origins</strong> &mdash; the browser should block cross-origin requests unless CORS
+        allows it.</p>
+    <hr style="border-color: #333; margin: 20px 0;">
+    <p>Now open <strong>DevTools</strong> (F12 or Cmd+Option+I) and go to the <strong>Console</strong> tab.</p>
+    <p>Follow the commands in the <code>README.md</code> to perform the exploit manually.</p>
+</body>
+
+</html>

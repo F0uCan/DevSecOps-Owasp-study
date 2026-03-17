@@ -1,0 +1,17 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# For A02: Cryptographic Failures (JWT, password hashing)
+passlib[bcrypt]
+python-jose[cryptography]
+PyJWT
+
+# For A03: Injection (form data handling for XSS)
+python-multipart
+
+# For A06: Vulnerable & Outdated Components (YAML deserialization)
+pyyaml
+
+# For A10: Server-Side Request Forgery
+httpx
